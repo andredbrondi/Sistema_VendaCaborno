@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scala Data Centers - Sistema de Vendas de Energia Limpa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Scala Data Centers</h1>
+        <h2>Sistema de Vendas de Energia Limpa</h2>
+    </header>
+    <main>
+        <div class="product-list">
+            <h3>Planos de Energia</h3>
+            <div class="product" data-id="1" data-name="Energia Solar - Plano Básico" data-price="150">
+                <h4>Energia Solar - Plano Básico</h4>
+                <p>R$ 150,00 por mês</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-id="2" data-name="Energia Eólica - Plano Padrão" data-price="200">
+                <h4>Energia Eólica - Plano Padrão</h4>
+                <p>R$ 200,00 por mês</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-id="3" data-name="Energia Hidrelétrica - Plano Premium" data-price="300">
+                <h4>Energia Hidrelétrica - Plano Premium</h4>
+                <p>R$ 300,00 por mês</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+        <div class="cart">
+            <h3>Carrinho de Compras</h3>
+            <ul class="cart-items"></ul>
+            <p class="total">Total: R$ 0,00</p>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
